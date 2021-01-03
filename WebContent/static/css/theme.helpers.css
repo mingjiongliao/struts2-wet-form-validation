@@ -1,0 +1,9 @@
+/*!
+* Copyright (c) 2021 TheKodester.ca
+* Under the MIT license
+*/
+
+.col-center {
+	float: none;
+	margin: 0 auto;
+}

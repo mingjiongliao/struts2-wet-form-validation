@@ -1,0 +1,123 @@
+/*!
+ * Copyright (c) 2019 TheKodester.ca
+ * Under the MIT license
+ */
+body {
+	height: 100%;
+	margin: 0;
+	font-size: 1.5rem;
+	font-weight: 400;
+	line-height: 1.5;
+	background-color: #fafafa;
+	color: #212529;
+}
+
+body>header {
+	background-color: #fafafa;
+}
+
+body>header+div.container, main {
+	background-color: #fafafa;
+}
+
+main {
+	min-height: 48vh;
+}
+
+#wb-dtmd {
+	float: right;
+}
+
+.wb-sm-bar {
+	border-top: 5px solid #333;
+}
+
+#wb-bnr, #wb-sm, #wb-bc .breadcrumb {
+	background: transparent;
+}
+
+#wb-sttl img, #wb-sttl object {
+	height: 75px;
+	margin: auto;
+	position: unset;
+	top: auto;
+	width: auto;
+}
+
+#wb-sm .menu>li>a, #wb-sm .menu>li>a.wb-navcurr, #wb-sm .sm.open li a.wb-navcurr,
+	#wb-sm .sm.open li a:focus, #wb-sm .sm.open li a:hover, #wb-sm .sm.open li summary.wb-navcurr,
+	#wb-sm .sm.open li summary:focus, #wb-sm .sm.open li summary:hover {
+	background: #333;
+	font-weight: bold;
+	text-shadow: none;
+	color: #fff;
+}
+
+#wb-sm .menu>li.active>a, #wb-sm .menu>li>a:hover, #wb-sm .sm.open {
+	outline: 0;
+	background: #ccc;
+	color: #000;
+}
+
+#wb-sm .sm.open {
+	border-bottom: 5px solid #333;
+}
+
+@media screen and (max-width: 991px) {
+	#mb-pnl.modal-content, #mb-pnl .modal-header, #mb-pnl .lng-ofr, #mb-pnl .sm-pnl,
+		#mb-pnl .srch-pnl, #mb-pnl .modal-footer {
+		background: #333;
+	}
+	#mb-pnl .modal-header {
+		border-bottom: 1px solid #8a8a8a;
+	}
+	#mb-pnl .lng-ofr a {
+		color: #fff;
+	}
+	#mb-pnl .modal-body {
+		background: #8a8a8a;
+	}
+	#mb-pnl .srch-pnl button.btn-default, #mb-pnl .srch-pnl button:hover.btn-default,
+		#mb-pnl .modal-footer button.btn-primary, #mb-pnl .modal-footer button:hover.btn-primary
+		{
+		color: #335075;
+		background-color: #cfd1d5;
+		border-color: #bbbfc5;
+	}
+	#mb-pnl .modal-footer {
+		border-top: 1px solid #8a8a8a;
+	}
+}
+
+footer.basic {
+	background-color: transparent;
+	color: #000;
+}
+
+footer.basic a, footer.basic a:hover {
+	color: #000;
+}
+
+footer {
+	padding: 1rem;
+	margin-top: 11vh;
+	background-color: #333;
+	color: #fff;
+}
+
+footer a, footer a:hover {
+	color: #fff;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+	footer.basic>.container {
+		background: transparent;
+	}
+	footer>.container {
+		background: #333;
+	}
+}
